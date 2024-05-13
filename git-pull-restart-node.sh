@@ -4,7 +4,6 @@ cd ceremonyclient/node
 
 git pull
 
-cd ceremonyclient/node 
 tmux new-session -s quil
 
 
