@@ -8,11 +8,3 @@ sudo apt install build-essential
 git clone https://github.com/tig-foundation/tig-monorepo.git
 
 cd tig-monorepo
-
-read -p "Enter ACCOUNT: " ACCOUNT
-read -p "Enter API: " API
-read -p "Enter the number of WORKERS: " WORKERS
-
-echo "ACCOUNT="$ACCOUNT"" > .env
-echo "API="$API"" >> .env
-echo "WORKERS="$WORKERS"" >> .env
