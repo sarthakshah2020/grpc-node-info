@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # User-editable difficulty variables
-difficulty_satisfiability="[800,400]"
-difficulty_vehicle_routing="[50,300]"
+difficulty_satisfiability="[50,300]"
+difficulty_vehicle_routing="[40, 250]"
 difficulty_knapsack="[50,10]"
 
 REPO_DIR="$HOME/tig-monorepo"
